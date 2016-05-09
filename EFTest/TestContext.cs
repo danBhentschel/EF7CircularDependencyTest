@@ -28,7 +28,7 @@ namespace EFTest
 
         public void Initialize()
         {
-            Database.EnsureCreated();
+            Database.Migrate();
         }
     }
 }
