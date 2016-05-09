@@ -1,5 +1,6 @@
 # EF7CircularDependencyTest
 Causes a circular dependency when committing changes to a SQLite DB.
+https://github.com/aspnet/EntityFramework/issues/5305
 
 There are two unit tests included in this project. They both attempt to commit the exact same information to a SQLite database. The first test commits all the data in a single step. The second test commits the data in two steps. The first test fails. The second succeeds.
 
